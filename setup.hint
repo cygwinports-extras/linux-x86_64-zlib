@@ -1,0 +1,3 @@
+category: Devel
+requires: linux-x86_64-glibc
+sdesc: "zlib for Linux x86_64 toolchain"
