@@ -1,6 +1,7 @@
 category: Devel
-requires: linux-x86_64-glibc
-sdesc: "zlib for Linux x86_64 toolchain"
+requires: linux-x86_64-glibc linux-x86_64-zlib
+external-source: linux-x86_64-zlib
+sdesc: "minizip for Linux x86_64 toolchain"
 ldesc: "This package does NOT contain cygwin binaries.  Instead, it
 contains Linux x86_64 binaries.  It is for use with the
 linux-x86_64-gcc cross compiler, and installs into the
